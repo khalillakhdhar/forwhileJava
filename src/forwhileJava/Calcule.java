@@ -10,7 +10,7 @@ public int getA() {
 public void setA(int a) {
 	this.a = a;
 }
-double factoriel()
+public double factoriel()
 {
 int f=1;
 
