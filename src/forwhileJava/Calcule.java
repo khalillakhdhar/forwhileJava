@@ -33,7 +33,7 @@ f=f*i;
 return f;
 
 }
-int pgcd()
+public int pgcd()
 {
 	int x=this.a;
 	int y=this.b;
@@ -47,6 +47,11 @@ int pgcd()
 	
 	
 	return x;
+}
+
+@Override
+public String toString() {
+	return "Calcule [a=" + a + ", b=" + b + ", factoriel de a= " + factoriel() + ", pgcd()= " + pgcd() + "]";
 }
 
 
